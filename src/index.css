@@ -99,6 +99,12 @@ nav .header-mess .arrow-down {
   margin-top: 120px;
 }
 
+.humburger-icon {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
 .page-info {
   width: 100%;
   display: flex;
