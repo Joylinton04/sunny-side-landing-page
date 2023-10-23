@@ -62,7 +62,7 @@ nav .nav-info h1 {
   font-weight: 700;
 }
 
-nav .nav-info ul {
+nav .nav-info .lr-screen {
   display: flex;
   align-items: center;
   list-style: none;
@@ -71,7 +71,7 @@ nav .nav-info ul {
   font-size: 1vw;
 }
 
-nav .nav-info ul li:last-child {
+nav .nav-info .lr-screen li:last-child {
   color: #000;
   background-color: #ffffff;
   padding: 1.5rem;
@@ -103,6 +103,41 @@ nav .header-mess .arrow-down {
   background-color: transparent;
   border: none;
   outline: none;
+}
+
+.mb-screen {
+  background-color: #ffff;
+  color: #333;
+  position: absolute;
+  left: 10%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  width: 80%;
+  display: none;
+}
+
+.mb-screen .mb-screen-menu { 
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  text-transform: capitalize;
+}
+
+.mb-screen .mb-screen-menu li {
+  font-size: 20px;
+}
+
+.mb-screen .mb-screen-menu li:last-child {
+  border-radius: 9999px;
+  background-color: rgb(228, 228, 11);
+  font-weight: 600;
+  width: 100px;
+  text-align: center;
 }
 
 .page-info {
@@ -413,7 +448,7 @@ footer {
     font-size: 25px;
   }
 
-  nav .nav-info ul {
+  nav .nav-info .lr-screen {
     display: none
   }
 
