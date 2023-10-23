@@ -11,5 +11,5 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Joylinton](https://www.frontendmentor.io/profile/Joylinton04)
+- Twitter - [@Joylinton](https://www.twitter.com/Joylinton05)
